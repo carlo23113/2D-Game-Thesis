@@ -26,14 +26,21 @@ public class playerMovement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+
+        //jump  palitan mo ung Input ng CrossPlatformInput para gumana sa buttons ung jump
         if (Input.GetMouseButtonDown(0))
         { 
-            //jump
+            
             rb.velocity = Vector2.up * velocity;
         }
 
-        dirX = Input.GetAxisRaw("Horizontal") * moveSpeed;
+        
+        // movement ng player sa pagtakbo
+        dirX = Input.GetAxisRaw("Horizontal") * moveSpeed; 
+        // dirX = CrossPlatformInputManager.GetAxis("Horizontal") * moveSpeed;  palitan mo ung code sa taas ng code na to para maging ung buttons sa canvas ung controls nya
 
+
+        // for movement animations
         if (Mathf.Abs(dirX) > 0 && rb.velocity.y == 0)
             anim.SetBool("isRunning", true);
         else
@@ -72,13 +79,4 @@ public class playerMovement : MonoBehaviour
         transform.localScale = localScale;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag.Equals("pipe"))
-        {
-            gameManager.GameOVer();
-        }
-        
-        
-    }
 }

@@ -23,6 +23,7 @@ public class PickUp : MonoBehaviour
                 if (inventory.isFull[i] == false)
                 {
                     inventory.isFull[i] = true;
+                    //item can be added in inventory
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
                     ScoreScript.score += 1;

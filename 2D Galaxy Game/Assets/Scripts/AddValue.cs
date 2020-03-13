@@ -9,7 +9,6 @@ public class AddValue : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         ItemScore.score++;
-
-        
+       
     }
 }
