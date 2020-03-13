@@ -25,6 +25,7 @@ public class PickUp : MonoBehaviour
                     inventory.isFull[i] = true;
                     Instantiate(itemButton, inventory.slots[i].transform, false);
                     Destroy(gameObject);
+                    ScoreScript.score += 1;
                     break;
                 }
             }
