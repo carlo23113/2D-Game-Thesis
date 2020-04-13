@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+    /*
     [SerializeField]private PlayerMovement playerMove;
     private float direction;
     public float Direction{
@@ -20,4 +21,5 @@ public class InputManager : MonoBehaviour
     {
         playerMove.Direction = direction;
     }
+    */
 }

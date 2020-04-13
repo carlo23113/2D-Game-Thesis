@@ -1,19 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class FixedButton : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+public class FixedButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
 {
-    [SerializeField]private PlayerMovement player;
-    [SerializeField]private float direction;
+    [HideInInspector]
+    public bool Pressed;
+    public float Moved;
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
-        player.Direction = direction;
+        Pressed = true;
+        Moved = 1f;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
-        player.Direction = 0;
+        Pressed = false;
+        Moved = 0f;
     }
 }
