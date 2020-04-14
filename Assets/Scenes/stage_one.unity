@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 1867563}
   - component: {fileID: 1867565}
   - component: {fileID: 1867564}
+  - component: {fileID: 1867566}
   m_Layer: 0
   m_Name: spike 1 (51)
   m_TagString: Spikes
@@ -226,6 +227,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1867566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &5784114
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +888,7 @@ GameObject:
   - component: {fileID: 16855282}
   - component: {fileID: 16855284}
   - component: {fileID: 16855283}
+  - component: {fileID: 16855285}
   m_Layer: 0
   m_Name: spike 1 (55)
   m_TagString: Spikes
@@ -967,6 +983,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &16855285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16855281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &18213064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1474,7 @@ GameObject:
   - component: {fileID: 32221117}
   - component: {fileID: 32221119}
   - component: {fileID: 32221118}
+  - component: {fileID: 32221120}
   m_Layer: 0
   m_Name: spike 1 (10)
   m_TagString: Spikes
@@ -1536,6 +1567,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &32221120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 32221116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &34293828
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,6 +1592,7 @@ GameObject:
   - component: {fileID: 34293829}
   - component: {fileID: 34293831}
   - component: {fileID: 34293830}
+  - component: {fileID: 34293832}
   m_Layer: 0
   m_Name: spike 1 (17)
   m_TagString: Spikes
@@ -1641,6 +1687,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &34293832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34293828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &36269206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2361,7 +2421,7 @@ Transform:
   - {fileID: 1867025195}
   - {fileID: 897814753}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52098683
 GameObject:
@@ -2454,6 +2514,7 @@ GameObject:
   - component: {fileID: 54030291}
   - component: {fileID: 54030293}
   - component: {fileID: 54030292}
+  - component: {fileID: 54030294}
   m_Layer: 0
   m_Name: spike 1 (24)
   m_TagString: Spikes
@@ -2546,6 +2607,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &54030294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 54030290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &55864932
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,7 +2832,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &58637587
 Animator:
@@ -3013,7 +3088,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -44}
+  m_AnchoredPosition: {x: 50, y: -44}
   m_SizeDelta: {x: 200, y: 80}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &63130009
@@ -3145,6 +3220,7 @@ GameObject:
   - component: {fileID: 65693723}
   - component: {fileID: 65693725}
   - component: {fileID: 65693724}
+  - component: {fileID: 65693726}
   m_Layer: 0
   m_Name: spike 1 (30)
   m_TagString: Spikes
@@ -3237,6 +3313,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &65693726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65693722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &65971112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3408,6 +3498,7 @@ GameObject:
   - component: {fileID: 68991931}
   - component: {fileID: 68991933}
   - component: {fileID: 68991932}
+  - component: {fileID: 68991934}
   m_Layer: 0
   m_Name: spike 1 (4)
   m_TagString: Spikes
@@ -3500,6 +3591,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &68991934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68991930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &69169482
 GameObject:
   m_ObjectHideFlags: 0
@@ -4231,6 +4336,7 @@ GameObject:
   - component: {fileID: 78117154}
   - component: {fileID: 78117156}
   - component: {fileID: 78117155}
+  - component: {fileID: 78117157}
   m_Layer: 0
   m_Name: spike 1 (23)
   m_TagString: Spikes
@@ -4325,6 +4431,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &78117157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78117153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &79832778
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,6 +4456,7 @@ GameObject:
   - component: {fileID: 79832779}
   - component: {fileID: 79832781}
   - component: {fileID: 79832780}
+  - component: {fileID: 79832782}
   m_Layer: 0
   m_Name: spike 1 (11)
   m_TagString: Spikes
@@ -4430,6 +4551,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &79832782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79832778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &80085076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5203,6 +5338,7 @@ GameObject:
   - component: {fileID: 90049726}
   - component: {fileID: 90049728}
   - component: {fileID: 90049727}
+  - component: {fileID: 90049729}
   m_Layer: 0
   m_Name: spike 1 (14)
   m_TagString: Spikes
@@ -5295,6 +5431,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &90049729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90049725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &92913442
 GameObject:
   m_ObjectHideFlags: 0
@@ -5786,6 +5936,7 @@ GameObject:
   - component: {fileID: 105790923}
   - component: {fileID: 105790925}
   - component: {fileID: 105790924}
+  - component: {fileID: 105790926}
   m_Layer: 0
   m_Name: spike 1 (32)
   m_TagString: Spikes
@@ -5878,6 +6029,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &105790926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105790922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &110247672
 GameObject:
   m_ObjectHideFlags: 0
@@ -6681,6 +6846,7 @@ GameObject:
   - component: {fileID: 123676690}
   - component: {fileID: 123676692}
   - component: {fileID: 123676691}
+  - component: {fileID: 123676693}
   m_Layer: 0
   m_Name: spike 1 (46)
   m_TagString: Spikes
@@ -6773,6 +6939,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &123676693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 123676689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &124714186
 GameObject:
   m_ObjectHideFlags: 0
@@ -6986,6 +7166,7 @@ GameObject:
   - component: {fileID: 129703129}
   - component: {fileID: 129703131}
   - component: {fileID: 129703130}
+  - component: {fileID: 129703132}
   m_Layer: 0
   m_Name: spike 1 (35)
   m_TagString: Spikes
@@ -7079,6 +7260,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &129703132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129703128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &130440396
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,7 +10108,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &180780437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9925,13 +10120,13 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1033515116}
-  m_RootOrder: 1
+  m_Father: {fileID: 921106019}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 399}
-  m_SizeDelta: {x: 241.1, y: 165.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -0.000030517578, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &180780438
 MonoBehaviour:
@@ -9958,7 +10153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -9966,15 +10161,15 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 41
-    m_FontStyle: 0
+    m_Font: {fileID: 12800000, guid: b4113f72fd722c94fabbc1329d44cc38, type: 3}
+    m_FontSize: 70
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 153
     m_Alignment: 4
     m_AlignByGeometry: 0
-    m_RichText: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
@@ -10238,6 +10433,7 @@ GameObject:
   - component: {fileID: 188091963}
   - component: {fileID: 188091965}
   - component: {fileID: 188091964}
+  - component: {fileID: 188091966}
   m_Layer: 0
   m_Name: spike 1 (5)
   m_TagString: Spikes
@@ -10331,6 +10527,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &188091966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188091962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &189045016
 GameObject:
   m_ObjectHideFlags: 0
@@ -12730,105 +12940,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &249612494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 249612498}
-  - component: {fileID: 249612497}
-  - component: {fileID: 249612496}
-  - component: {fileID: 249612495}
-  m_Layer: 5
-  m_Name: GameoverCanvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &249612495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249612494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &249612496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249612494}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &249612497
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249612494}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &249612498
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 249612494}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1824727455}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &249683744
 GameObject:
   m_ObjectHideFlags: 0
@@ -13149,6 +13260,110 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &259183663
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259183664}
+  - component: {fileID: 259183667}
+  - component: {fileID: 259183666}
+  - component: {fileID: 259183665}
+  m_Layer: 5
+  m_Name: ctn_health
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &259183664
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259183663}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 725174900}
+  - {fileID: 650026532}
+  - {fileID: 340878433}
+  m_Father: {fileID: 356779915}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -39, y: -44}
+  m_SizeDelta: {x: 301.9, y: 80}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &259183665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259183663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 4
+  m_Spacing: 30
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+--- !u!114 &259183666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259183663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &259183667
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259183663}
+  m_CullTransparentMesh: 0
 --- !u!1 &263255464
 GameObject:
   m_ObjectHideFlags: 0
@@ -13399,6 +13614,7 @@ GameObject:
   - component: {fileID: 265943163}
   - component: {fileID: 265943165}
   - component: {fileID: 265943164}
+  - component: {fileID: 265943166}
   m_Layer: 0
   m_Name: spike 1 (29)
   m_TagString: Spikes
@@ -13494,6 +13710,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &265943166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265943162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &269420086
 GameObject:
   m_ObjectHideFlags: 0
@@ -14945,6 +15175,7 @@ GameObject:
   - component: {fileID: 292268167}
   - component: {fileID: 292268169}
   - component: {fileID: 292268168}
+  - component: {fileID: 292268170}
   m_Layer: 0
   m_Name: spike 1 (34)
   m_TagString: Spikes
@@ -15037,6 +15268,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &292268170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292268166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &292632039
 GameObject:
   m_ObjectHideFlags: 0
@@ -15465,7 +15710,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15774,6 +16019,7 @@ GameObject:
   - component: {fileID: 308498610}
   - component: {fileID: 308498612}
   - component: {fileID: 308498611}
+  - component: {fileID: 308498613}
   m_Layer: 0
   m_Name: spike 1 (20)
   m_TagString: Spikes
@@ -15866,6 +16112,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &308498613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308498609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &308943264
 GameObject:
   m_ObjectHideFlags: 0
@@ -15877,6 +16137,7 @@ GameObject:
   - component: {fileID: 308943265}
   - component: {fileID: 308943267}
   - component: {fileID: 308943266}
+  - component: {fileID: 308943268}
   m_Layer: 0
   m_Name: spike 1 (9)
   m_TagString: Spikes
@@ -15972,6 +16233,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &308943268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308943264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &309828819
 GameObject:
   m_ObjectHideFlags: 0
@@ -16345,6 +16620,7 @@ GameObject:
   - component: {fileID: 316549775}
   - component: {fileID: 316549777}
   - component: {fileID: 316549776}
+  - component: {fileID: 316549778}
   m_Layer: 0
   m_Name: spike 1 (30)
   m_TagString: Spikes
@@ -16437,6 +16713,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &316549778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 316549774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &316605101
 GameObject:
   m_ObjectHideFlags: 0
@@ -17008,6 +17298,7 @@ GameObject:
   - component: {fileID: 325633979}
   - component: {fileID: 325633981}
   - component: {fileID: 325633980}
+  - component: {fileID: 325633982}
   m_Layer: 0
   m_Name: spike 1 (28)
   m_TagString: Spikes
@@ -17100,6 +17391,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &325633982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 325633978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &327245199
 GameObject:
   m_ObjectHideFlags: 0
@@ -17111,6 +17416,7 @@ GameObject:
   - component: {fileID: 327245200}
   - component: {fileID: 327245202}
   - component: {fileID: 327245201}
+  - component: {fileID: 327245203}
   m_Layer: 0
   m_Name: spike 1 (14)
   m_TagString: Spikes
@@ -17203,6 +17509,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &327245203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327245199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &331497167
 GameObject:
   m_ObjectHideFlags: 0
@@ -17809,6 +18129,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &340878432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 340878433}
+  - component: {fileID: 340878435}
+  - component: {fileID: 340878434}
+  m_Layer: 5
+  m_Name: icn_astronaut (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &340878433
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340878432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259183664}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &340878434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340878432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: de229ee3107fbf94e9187ace7719938f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &340878435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340878432}
+  m_CullTransparentMesh: 0
 --- !u!1 &344635172
 GameObject:
   m_ObjectHideFlags: 0
@@ -18000,7 +18395,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -18250,8 +18645,10 @@ RectTransform:
   m_Children:
   - {fileID: 63130008}
   - {fileID: 995750475}
+  - {fileID: 259183664}
+  - {fileID: 921106019}
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -19827,6 +20224,7 @@ GameObject:
   - component: {fileID: 390716447}
   - component: {fileID: 390716449}
   - component: {fileID: 390716448}
+  - component: {fileID: 390716450}
   m_Layer: 0
   m_Name: spike 1 (12)
   m_TagString: Spikes
@@ -19919,6 +20317,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &390716450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 390716446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &391870035
 GameObject:
   m_ObjectHideFlags: 0
@@ -20487,6 +20899,7 @@ GameObject:
   - component: {fileID: 402443590}
   - component: {fileID: 402443592}
   - component: {fileID: 402443591}
+  - component: {fileID: 402443593}
   m_Layer: 0
   m_Name: spike 1 (7)
   m_TagString: Spikes
@@ -20580,6 +20993,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &402443593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402443589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &405305566
 GameObject:
   m_ObjectHideFlags: 0
@@ -20911,6 +21338,7 @@ GameObject:
   - component: {fileID: 417807688}
   - component: {fileID: 417807690}
   - component: {fileID: 417807689}
+  - component: {fileID: 417807691}
   m_Layer: 0
   m_Name: spike 1 (2)
   m_TagString: Spikes
@@ -21003,6 +21431,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &417807691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417807687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &419560185
 GameObject:
   m_ObjectHideFlags: 0
@@ -21170,6 +21612,7 @@ GameObject:
   - component: {fileID: 422210672}
   - component: {fileID: 422210674}
   - component: {fileID: 422210673}
+  - component: {fileID: 422210675}
   m_Layer: 0
   m_Name: spike 1 (15)
   m_TagString: Spikes
@@ -21263,6 +21706,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &422210675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422210671}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &422675470
 GameObject:
   m_ObjectHideFlags: 0
@@ -22870,6 +23327,7 @@ GameObject:
   - component: {fileID: 445441256}
   - component: {fileID: 445441258}
   - component: {fileID: 445441257}
+  - component: {fileID: 445441259}
   m_Layer: 0
   m_Name: spike 1 (7)
   m_TagString: Spikes
@@ -22963,6 +23421,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &445441259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445441255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &445798546
 GameObject:
   m_ObjectHideFlags: 0
@@ -23074,7 +23546,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -23176,6 +23648,7 @@ GameObject:
   - component: {fileID: 446363196}
   - component: {fileID: 446363198}
   - component: {fileID: 446363197}
+  - component: {fileID: 446363199}
   m_Layer: 0
   m_Name: spike 1 (42)
   m_TagString: Spikes
@@ -23268,6 +23741,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &446363199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446363195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &449809610
 GameObject:
   m_ObjectHideFlags: 0
@@ -24154,6 +24641,7 @@ GameObject:
   - component: {fileID: 465580815}
   - component: {fileID: 465580817}
   - component: {fileID: 465580816}
+  - component: {fileID: 465580818}
   m_Layer: 0
   m_Name: spike 1 (18)
   m_TagString: Spikes
@@ -24246,6 +24734,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &465580818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465580814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &465977731
 GameObject:
   m_ObjectHideFlags: 0
@@ -25363,6 +25865,7 @@ GameObject:
   - component: {fileID: 494867133}
   - component: {fileID: 494867135}
   - component: {fileID: 494867134}
+  - component: {fileID: 494867136}
   m_Layer: 0
   m_Name: spike 1 (15)
   m_TagString: Spikes
@@ -25456,6 +25959,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &494867136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494867132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &495074799
 GameObject:
   m_ObjectHideFlags: 0
@@ -25739,6 +26256,7 @@ GameObject:
   - component: {fileID: 502442358}
   - component: {fileID: 502442360}
   - component: {fileID: 502442359}
+  - component: {fileID: 502442361}
   m_Layer: 0
   m_Name: spike 1 (4)
   m_TagString: Spikes
@@ -25831,6 +26349,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &502442361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502442357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &503093365
 GameObject:
   m_ObjectHideFlags: 0
@@ -26722,6 +27254,7 @@ GameObject:
   - component: {fileID: 527236692}
   - component: {fileID: 527236694}
   - component: {fileID: 527236693}
+  - component: {fileID: 527236695}
   m_Layer: 0
   m_Name: spike 1 (6)
   m_TagString: Spikes
@@ -26814,6 +27347,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &527236695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 527236691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &528680151
 GameObject:
   m_ObjectHideFlags: 0
@@ -27944,6 +28491,7 @@ GameObject:
   - component: {fileID: 558901863}
   - component: {fileID: 558901865}
   - component: {fileID: 558901864}
+  - component: {fileID: 558901866}
   m_Layer: 0
   m_Name: spike 1 (13)
   m_TagString: Spikes
@@ -28037,6 +28585,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &558901866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 558901862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &563840355
 GameObject:
   m_ObjectHideFlags: 0
@@ -29248,6 +29810,7 @@ GameObject:
   - component: {fileID: 598843806}
   - component: {fileID: 598843808}
   - component: {fileID: 598843807}
+  - component: {fileID: 598843809}
   m_Layer: 0
   m_Name: spike 1 (16)
   m_TagString: Spikes
@@ -29340,6 +29903,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &598843809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598843805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &599655333
 GameObject:
   m_ObjectHideFlags: 0
@@ -30652,85 +31229,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &628636914
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 628636915}
-  - component: {fileID: 628636917}
-  - component: {fileID: 628636916}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &628636915
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628636914}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 978051313}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &628636916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628636914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 95
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 95
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: PLAY
---- !u!222 &628636917
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 628636914}
-  m_CullTransparentMesh: 0
 --- !u!1 &629263457
 GameObject:
   m_ObjectHideFlags: 0
@@ -31302,6 +31800,7 @@ GameObject:
   - component: {fileID: 640536588}
   - component: {fileID: 640536590}
   - component: {fileID: 640536589}
+  - component: {fileID: 640536591}
   m_Layer: 0
   m_Name: spike 1 (21)
   m_TagString: Spikes
@@ -31395,6 +31894,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &640536591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640536587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &643986693
 GameObject:
   m_ObjectHideFlags: 0
@@ -31646,6 +32159,7 @@ GameObject:
   - component: {fileID: 646547663}
   - component: {fileID: 646547665}
   - component: {fileID: 646547664}
+  - component: {fileID: 646547666}
   m_Layer: 0
   m_Name: spike 1 (44)
   m_TagString: Spikes
@@ -31738,6 +32252,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &646547666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 646547662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &648635515
 GameObject:
   m_ObjectHideFlags: 0
@@ -31898,6 +32426,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &650026531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 650026532}
+  - component: {fileID: 650026534}
+  - component: {fileID: 650026533}
+  m_Layer: 5
+  m_Name: icn_astronaut (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &650026532
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650026531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259183664}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &650026533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650026531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: de229ee3107fbf94e9187ace7719938f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &650026534
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650026531}
+  m_CullTransparentMesh: 0
 --- !u!1 &651610919
 GameObject:
   m_ObjectHideFlags: 0
@@ -32069,6 +32672,7 @@ GameObject:
   - component: {fileID: 656442780}
   - component: {fileID: 656442782}
   - component: {fileID: 656442781}
+  - component: {fileID: 656442783}
   m_Layer: 0
   m_Name: spike 1 (20)
   m_TagString: Spikes
@@ -32161,6 +32765,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &656442783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656442779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &657312775
 GameObject:
   m_ObjectHideFlags: 0
@@ -33372,6 +33990,7 @@ GameObject:
   - component: {fileID: 681589844}
   - component: {fileID: 681589846}
   - component: {fileID: 681589845}
+  - component: {fileID: 681589847}
   m_Layer: 0
   m_Name: spike 1 (1)
   m_TagString: Spikes
@@ -33465,6 +34084,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &681589847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681589843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &682341019
 GameObject:
   m_ObjectHideFlags: 0
@@ -33553,6 +34186,7 @@ GameObject:
   - component: {fileID: 683273743}
   - component: {fileID: 683273745}
   - component: {fileID: 683273744}
+  - component: {fileID: 683273746}
   m_Layer: 0
   m_Name: spike 1 (12)
   m_TagString: Spikes
@@ -33645,6 +34279,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &683273746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 683273742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &684094526
 GameObject:
   m_ObjectHideFlags: 0
@@ -33971,6 +34619,7 @@ GameObject:
   - component: {fileID: 686518651}
   - component: {fileID: 686518653}
   - component: {fileID: 686518652}
+  - component: {fileID: 686518654}
   m_Layer: 0
   m_Name: spike 1 (39)
   m_TagString: Spikes
@@ -34065,6 +34714,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &686518654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686518650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &691409055
 GameObject:
   m_ObjectHideFlags: 0
@@ -34235,6 +34898,7 @@ GameObject:
   - component: {fileID: 693776142}
   - component: {fileID: 693776144}
   - component: {fileID: 693776143}
+  - component: {fileID: 693776145}
   m_Layer: 0
   m_Name: spike 1 (40)
   m_TagString: Spikes
@@ -34327,6 +34991,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &693776145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693776141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &695805498
 GameObject:
   m_ObjectHideFlags: 0
@@ -34657,6 +35335,7 @@ GameObject:
   - component: {fileID: 715050496}
   - component: {fileID: 715050498}
   - component: {fileID: 715050497}
+  - component: {fileID: 715050499}
   m_Layer: 0
   m_Name: spike 1 (10)
   m_TagString: Spikes
@@ -34749,6 +35428,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &715050499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715050495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &720732372
 GameObject:
   m_ObjectHideFlags: 0
@@ -35069,6 +35762,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &725174899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 725174900}
+  - component: {fileID: 725174902}
+  - component: {fileID: 725174901}
+  m_Layer: 5
+  m_Name: icn_astronaut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &725174900
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725174899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 259183664}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 80, y: 80}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &725174901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725174899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: de229ee3107fbf94e9187ace7719938f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &725174902
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725174899}
+  m_CullTransparentMesh: 0
 --- !u!1 &727531778
 GameObject:
   m_ObjectHideFlags: 0
@@ -35320,6 +36088,7 @@ GameObject:
   - component: {fileID: 740867097}
   - component: {fileID: 740867099}
   - component: {fileID: 740867098}
+  - component: {fileID: 740867100}
   m_Layer: 0
   m_Name: spike 1 (2)
   m_TagString: Spikes
@@ -35412,6 +36181,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &740867100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 740867096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &741034313
 GameObject:
   m_ObjectHideFlags: 0
@@ -36703,6 +37486,7 @@ GameObject:
   - component: {fileID: 768555497}
   - component: {fileID: 768555499}
   - component: {fileID: 768555498}
+  - component: {fileID: 768555500}
   m_Layer: 0
   m_Name: spike 1 (21)
   m_TagString: Spikes
@@ -36796,6 +37580,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &768555500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 768555496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &769779443
 GameObject:
   m_ObjectHideFlags: 0
@@ -37127,6 +37925,7 @@ GameObject:
   - component: {fileID: 778788450}
   - component: {fileID: 778788452}
   - component: {fileID: 778788451}
+  - component: {fileID: 778788453}
   m_Layer: 0
   m_Name: spike 1 (17)
   m_TagString: Spikes
@@ -37221,6 +38020,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &778788453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778788449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &782852221
 GameObject:
   m_ObjectHideFlags: 0
@@ -37491,7 +38304,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -37551,6 +38364,7 @@ GameObject:
   - component: {fileID: 787989834}
   - component: {fileID: 787989836}
   - component: {fileID: 787989835}
+  - component: {fileID: 787989837}
   m_Layer: 0
   m_Name: spike 1 (48)
   m_TagString: Spikes
@@ -37643,6 +38457,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &787989837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787989833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &789671624
 GameObject:
   m_ObjectHideFlags: 0
@@ -37974,6 +38802,7 @@ GameObject:
   - component: {fileID: 802650690}
   - component: {fileID: 802650692}
   - component: {fileID: 802650691}
+  - component: {fileID: 802650693}
   m_Layer: 0
   m_Name: spike 1
   m_TagString: Spikes
@@ -38066,6 +38895,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &802650693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802650689}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &805835807
 GameObject:
   m_ObjectHideFlags: 0
@@ -38397,6 +39240,7 @@ GameObject:
   - component: {fileID: 811465933}
   - component: {fileID: 811465935}
   - component: {fileID: 811465934}
+  - component: {fileID: 811465936}
   m_Layer: 0
   m_Name: spike 1 (1)
   m_TagString: Spikes
@@ -38490,6 +39334,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &811465936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 811465932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &811612377
 GameObject:
   m_ObjectHideFlags: 0
@@ -38741,6 +39599,7 @@ GameObject:
   - component: {fileID: 814886844}
   - component: {fileID: 814886846}
   - component: {fileID: 814886845}
+  - component: {fileID: 814886847}
   m_Layer: 0
   m_Name: spike 1 (21)
   m_TagString: Spikes
@@ -38834,6 +39693,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &814886847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814886843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &815121587
 GameObject:
   m_ObjectHideFlags: 0
@@ -39565,6 +40438,7 @@ GameObject:
   - component: {fileID: 829045577}
   - component: {fileID: 829045579}
   - component: {fileID: 829045578}
+  - component: {fileID: 829045580}
   m_Layer: 0
   m_Name: spike 1 (6)
   m_TagString: Spikes
@@ -39657,6 +40531,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &829045580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829045576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &829767415
 GameObject:
   m_ObjectHideFlags: 0
@@ -39988,6 +40876,7 @@ GameObject:
   - component: {fileID: 840804902}
   - component: {fileID: 840804904}
   - component: {fileID: 840804903}
+  - component: {fileID: 840804905}
   m_Layer: 0
   m_Name: spike 1 (26)
   m_TagString: Spikes
@@ -40080,6 +40969,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &840804905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840804901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &842106442
 GameObject:
   m_ObjectHideFlags: 0
@@ -40091,6 +40994,7 @@ GameObject:
   - component: {fileID: 842106443}
   - component: {fileID: 842106445}
   - component: {fileID: 842106444}
+  - component: {fileID: 842106446}
   m_Layer: 0
   m_Name: spike 1 (27)
   m_TagString: Spikes
@@ -40184,6 +41088,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &842106446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842106442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &842537073
 GameObject:
   m_ObjectHideFlags: 0
@@ -41550,6 +42468,7 @@ GameObject:
   - component: {fileID: 865040237}
   - component: {fileID: 865040239}
   - component: {fileID: 865040238}
+  - component: {fileID: 865040240}
   m_Layer: 0
   m_Name: spike 1 (23)
   m_TagString: Spikes
@@ -41643,6 +42562,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &865040240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865040236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &867372911
 GameObject:
   m_ObjectHideFlags: 0
@@ -41936,6 +42869,7 @@ GameObject:
   - component: {fileID: 870025097}
   - component: {fileID: 870025099}
   - component: {fileID: 870025098}
+  - component: {fileID: 870025100}
   m_Layer: 0
   m_Name: spike 1 (14)
   m_TagString: Spikes
@@ -42028,6 +42962,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &870025100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870025096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &875800823
 GameObject:
   m_ObjectHideFlags: 0
@@ -42517,6 +43465,7 @@ GameObject:
   - component: {fileID: 887177332}
   - component: {fileID: 887177334}
   - component: {fileID: 887177333}
+  - component: {fileID: 887177335}
   m_Layer: 0
   m_Name: spike 1 (25)
   m_TagString: Spikes
@@ -42611,6 +43560,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &887177335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887177331}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &891223527
 GameObject:
   m_ObjectHideFlags: 0
@@ -42622,6 +43585,7 @@ GameObject:
   - component: {fileID: 891223528}
   - component: {fileID: 891223530}
   - component: {fileID: 891223529}
+  - component: {fileID: 891223531}
   m_Layer: 0
   m_Name: spike 1 (49)
   m_TagString: Spikes
@@ -42715,6 +43679,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &891223531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891223527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &892336284
 GameObject:
   m_ObjectHideFlags: 0
@@ -42806,6 +43784,7 @@ GameObject:
   - component: {fileID: 893010162}
   - component: {fileID: 893010164}
   - component: {fileID: 893010163}
+  - component: {fileID: 893010165}
   m_Layer: 0
   m_Name: spike 1
   m_TagString: Spikes
@@ -42898,6 +43877,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893010165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893010161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &893648380
 GameObject:
   m_ObjectHideFlags: 0
@@ -42909,6 +43902,7 @@ GameObject:
   - component: {fileID: 893648381}
   - component: {fileID: 893648383}
   - component: {fileID: 893648382}
+  - component: {fileID: 893648384}
   m_Layer: 0
   m_Name: spike 1 (56)
   m_TagString: Spikes
@@ -43001,6 +43995,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &893648384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893648380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &894975893
 GameObject:
   m_ObjectHideFlags: 0
@@ -43012,6 +44020,7 @@ GameObject:
   - component: {fileID: 894975894}
   - component: {fileID: 894975896}
   - component: {fileID: 894975895}
+  - component: {fileID: 894975897}
   m_Layer: 0
   m_Name: spike 1 (11)
   m_TagString: Spikes
@@ -43106,6 +44115,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &894975897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894975893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &896546945
 GameObject:
   m_ObjectHideFlags: 0
@@ -43789,6 +44812,7 @@ GameObject:
   - component: {fileID: 909288983}
   - component: {fileID: 909288985}
   - component: {fileID: 909288984}
+  - component: {fileID: 909288986}
   m_Layer: 0
   m_Name: spike 1 (10)
   m_TagString: Spikes
@@ -43881,6 +44905,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &909288986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909288982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &914234795
 GameObject:
   m_ObjectHideFlags: 0
@@ -44121,6 +45159,82 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &921106018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921106019}
+  - component: {fileID: 921106021}
+  - component: {fileID: 921106020}
+  m_Layer: 5
+  m_Name: ctn_score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &921106019
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921106018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 180780437}
+  m_Father: {fileID: 356779915}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -39, y: -129}
+  m_SizeDelta: {x: 301.9, y: 80}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &921106020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921106018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &921106021
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921106018}
+  m_CullTransparentMesh: 0
 --- !u!1 &928899430
 GameObject:
   m_ObjectHideFlags: 0
@@ -44371,6 +45485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938816186}
   - component: {fileID: 938816185}
+  - component: {fileID: 938816187}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -44390,7 +45505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c00856a2d924544e9d2dce0cf565c6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverCanvas: {fileID: 249612494}
+  gameOverCanvas: {fileID: 1027361857}
 --- !u!4 &938816186
 Transform:
   m_ObjectHideFlags: 0
@@ -44405,6 +45520,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938816187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938816184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 759e7b26f7c2b3147946d111a45f3703, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  astronaut:
+  - {fileID: 725174899}
+  - {fileID: 650026531}
+  - {fileID: 340878432}
 --- !u!1 &938869846
 GameObject:
   m_ObjectHideFlags: 0
@@ -45296,6 +46427,7 @@ GameObject:
   - component: {fileID: 974273225}
   - component: {fileID: 974273227}
   - component: {fileID: 974273226}
+  - component: {fileID: 974273228}
   m_Layer: 0
   m_Name: spike 1 (11)
   m_TagString: Spikes
@@ -45390,6 +46522,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &974273228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974273224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &976788440
 GameObject:
   m_ObjectHideFlags: 0
@@ -45470,139 +46616,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &978051312
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 978051313}
-  - component: {fileID: 978051316}
-  - component: {fileID: 978051315}
-  - component: {fileID: 978051314}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &978051313
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978051312}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 628636915}
-  m_Father: {fileID: 1824727455}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: -197}
-  m_SizeDelta: {x: -443.3, y: 157.8}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &978051314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978051312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 978051315}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 938816185}
-        m_MethodName: Replay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &978051315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978051312}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &978051316
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978051312}
-  m_CullTransparentMesh: 0
 --- !u!1 &978210060
 GameObject:
   m_ObjectHideFlags: 0
@@ -46729,7 +47742,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 200, y: 80}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &995750476
@@ -46941,6 +47954,7 @@ GameObject:
   - component: {fileID: 1002965509}
   - component: {fileID: 1002965511}
   - component: {fileID: 1002965510}
+  - component: {fileID: 1002965512}
   m_Layer: 0
   m_Name: spike 1 (19)
   m_TagString: Spikes
@@ -47034,6 +48048,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1002965512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1002965508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1005095848
 GameObject:
   m_ObjectHideFlags: 0
@@ -48473,6 +49501,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1027361857
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027361858}
+  - component: {fileID: 1027361860}
+  - component: {fileID: 1027361859}
+  m_Layer: 5
+  m_Name: panel_gameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1027361858
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027361857}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1614520034}
+  - {fileID: 1530198587}
+  m_Father: {fileID: 1033515116}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1027361859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027361857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.3490566, g: 0.34082413, b: 0.34082413, a: 0.7764706}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1027361860
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1027361857}
+  m_CullTransparentMesh: 0
 --- !u!1 &1028409599
 GameObject:
   m_ObjectHideFlags: 0
@@ -48857,7 +49962,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -48873,7 +49978,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1692770252}
-  - {fileID: 180780437}
   - {fileID: 1252142014}
   - {fileID: 785806741}
   - {fileID: 1838546683}
@@ -48883,8 +49987,9 @@ RectTransform:
   - {fileID: 1831863480}
   - {fileID: 445986800}
   - {fileID: 356779915}
+  - {fileID: 1027361858}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -51023,6 +52128,7 @@ GameObject:
   - component: {fileID: 1091510339}
   - component: {fileID: 1091510341}
   - component: {fileID: 1091510340}
+  - component: {fileID: 1091510342}
   m_Layer: 0
   m_Name: spike 1 (37)
   m_TagString: Spikes
@@ -51116,6 +52222,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1091510342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091510338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1091697841
 GameObject:
   m_ObjectHideFlags: 0
@@ -51447,6 +52567,7 @@ GameObject:
   - component: {fileID: 1097352318}
   - component: {fileID: 1097352320}
   - component: {fileID: 1097352319}
+  - component: {fileID: 1097352321}
   m_Layer: 0
   m_Name: spike 1 (8)
   m_TagString: Spikes
@@ -51539,6 +52660,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1097352321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097352317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1098409695
 GameObject:
   m_ObjectHideFlags: 0
@@ -52775,6 +53910,7 @@ GameObject:
   - component: {fileID: 1131828055}
   - component: {fileID: 1131828057}
   - component: {fileID: 1131828056}
+  - component: {fileID: 1131828058}
   m_Layer: 0
   m_Name: spike 1 (31)
   m_TagString: Spikes
@@ -52868,6 +54004,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1131828058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131828054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1131835379
 GameObject:
   m_ObjectHideFlags: 0
@@ -53919,6 +55069,7 @@ GameObject:
   - component: {fileID: 1149400703}
   - component: {fileID: 1149400705}
   - component: {fileID: 1149400704}
+  - component: {fileID: 1149400706}
   m_Layer: 0
   m_Name: spike 1 (28)
   m_TagString: Spikes
@@ -54011,6 +55162,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1149400706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149400702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1152706641
 GameObject:
   m_ObjectHideFlags: 0
@@ -54102,6 +55267,7 @@ GameObject:
   - component: {fileID: 1157789728}
   - component: {fileID: 1157789730}
   - component: {fileID: 1157789729}
+  - component: {fileID: 1157789731}
   m_Layer: 0
   m_Name: spike 1 (20)
   m_TagString: Spikes
@@ -54194,6 +55360,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1157789731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157789727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1158287726
 GameObject:
   m_ObjectHideFlags: 0
@@ -57542,6 +58722,7 @@ GameObject:
   - component: {fileID: 1243858625}
   - component: {fileID: 1243858627}
   - component: {fileID: 1243858626}
+  - component: {fileID: 1243858628}
   m_Layer: 0
   m_Name: spike 1 (3)
   m_TagString: Spikes
@@ -57636,6 +58817,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1243858628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243858624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1244144031
 GameObject:
   m_ObjectHideFlags: 0
@@ -57807,6 +59002,7 @@ GameObject:
   - component: {fileID: 1245150837}
   - component: {fileID: 1245150839}
   - component: {fileID: 1245150838}
+  - component: {fileID: 1245150840}
   m_Layer: 0
   m_Name: spike 1 (33)
   m_TagString: Spikes
@@ -57901,6 +59097,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1245150840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245150836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1246693724
 GameObject:
   m_ObjectHideFlags: 0
@@ -58332,7 +59542,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -59042,6 +60252,7 @@ GameObject:
   - component: {fileID: 1258841006}
   - component: {fileID: 1258841008}
   - component: {fileID: 1258841007}
+  - component: {fileID: 1258841009}
   m_Layer: 0
   m_Name: spike 1 (1)
   m_TagString: Spikes
@@ -59135,6 +60346,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1258841009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258841005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1259749155
 GameObject:
   m_ObjectHideFlags: 0
@@ -60586,6 +61811,7 @@ GameObject:
   - component: {fileID: 1293592248}
   - component: {fileID: 1293592250}
   - component: {fileID: 1293592249}
+  - component: {fileID: 1293592251}
   m_Layer: 0
   m_Name: spike 1 (31)
   m_TagString: Spikes
@@ -60681,6 +61907,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1293592251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293592247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1294044438
 GameObject:
   m_ObjectHideFlags: 0
@@ -61652,6 +62892,7 @@ GameObject:
   - component: {fileID: 1335705656}
   - component: {fileID: 1335705658}
   - component: {fileID: 1335705657}
+  - component: {fileID: 1335705659}
   m_Layer: 0
   m_Name: spike 1 (8)
   m_TagString: Spikes
@@ -61744,6 +62985,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1335705659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335705655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1339734689
 GameObject:
   m_ObjectHideFlags: 0
@@ -62635,6 +63890,7 @@ GameObject:
   - component: {fileID: 1367690964}
   - component: {fileID: 1367690966}
   - component: {fileID: 1367690965}
+  - component: {fileID: 1367690967}
   m_Layer: 0
   m_Name: spike 1 (19)
   m_TagString: Spikes
@@ -62728,6 +63984,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1367690967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367690963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1368591139
 GameObject:
   m_ObjectHideFlags: 0
@@ -63727,6 +64997,7 @@ GameObject:
   - component: {fileID: 1387626551}
   - component: {fileID: 1387626553}
   - component: {fileID: 1387626552}
+  - component: {fileID: 1387626554}
   m_Layer: 0
   m_Name: spike 1 (19)
   m_TagString: Spikes
@@ -63820,6 +65091,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1387626554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387626550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1388659210
 GameObject:
   m_ObjectHideFlags: 0
@@ -65537,6 +66822,7 @@ GameObject:
   - component: {fileID: 1423079054}
   - component: {fileID: 1423079056}
   - component: {fileID: 1423079055}
+  - component: {fileID: 1423079057}
   m_Layer: 0
   m_Name: spike 1 (13)
   m_TagString: Spikes
@@ -65630,6 +66916,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1423079057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423079053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1424968951
 GameObject:
   m_ObjectHideFlags: 0
@@ -66280,6 +67580,7 @@ GameObject:
   - component: {fileID: 1438437953}
   - component: {fileID: 1438437955}
   - component: {fileID: 1438437954}
+  - component: {fileID: 1438437956}
   m_Layer: 0
   m_Name: spike 1 (38)
   m_TagString: Spikes
@@ -66372,6 +67673,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1438437956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1438437952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1439841670
 GameObject:
   m_ObjectHideFlags: 0
@@ -66703,6 +68018,7 @@ GameObject:
   - component: {fileID: 1450660594}
   - component: {fileID: 1450660596}
   - component: {fileID: 1450660595}
+  - component: {fileID: 1450660597}
   m_Layer: 0
   m_Name: spike 1 (7)
   m_TagString: Spikes
@@ -66796,6 +68112,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1450660597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450660593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1453026871
 GameObject:
   m_ObjectHideFlags: 0
@@ -67230,8 +68560,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -28.29, y: -26.29}
+  m_AnchoredPosition: {x: 0.072502136, y: -0.072502136}
+  m_SizeDelta: {x: -28.145, y: -26.145}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461306049
 MonoBehaviour:
@@ -67634,6 +68964,7 @@ GameObject:
   - component: {fileID: 1466608620}
   - component: {fileID: 1466608622}
   - component: {fileID: 1466608621}
+  - component: {fileID: 1466608623}
   m_Layer: 0
   m_Name: spike 1 (3)
   m_TagString: Spikes
@@ -67728,6 +69059,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1466608623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466608619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1467090106
 GameObject:
   m_ObjectHideFlags: 0
@@ -69211,6 +70556,7 @@ GameObject:
   - component: {fileID: 1499203814}
   - component: {fileID: 1499203816}
   - component: {fileID: 1499203815}
+  - component: {fileID: 1499203817}
   m_Layer: 0
   m_Name: spike 1 (5)
   m_TagString: Spikes
@@ -69304,6 +70650,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1499203817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1499203813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1502197696
 GameObject:
   m_ObjectHideFlags: 0
@@ -70185,7 +71545,7 @@ RectTransform:
   m_Children:
   - {fileID: 1180166590}
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -70203,6 +71563,7 @@ GameObject:
   - component: {fileID: 1513524345}
   - component: {fileID: 1513524347}
   - component: {fileID: 1513524346}
+  - component: {fileID: 1513524348}
   m_Layer: 0
   m_Name: spike 1 (16)
   m_TagString: Spikes
@@ -70295,6 +71656,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1513524348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513524344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1514102698
 GameObject:
   m_ObjectHideFlags: 0
@@ -71205,6 +72580,7 @@ GameObject:
   - component: {fileID: 1525635447}
   - component: {fileID: 1525635449}
   - component: {fileID: 1525635448}
+  - component: {fileID: 1525635450}
   m_Layer: 0
   m_Name: spike 1 (29)
   m_TagString: Spikes
@@ -71298,6 +72674,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1525635450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525635446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1526013801
 GameObject:
   m_ObjectHideFlags: 0
@@ -71532,6 +72922,138 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1529689565}
+  m_CullTransparentMesh: 0
+--- !u!1 &1530198586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1530198587}
+  - component: {fileID: 1530198590}
+  - component: {fileID: 1530198589}
+  - component: {fileID: 1530198588}
+  m_Layer: 5
+  m_Name: txt_replay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1530198587
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530198586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1027361858}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -602.3}
+  m_SizeDelta: {x: 691, y: 221.3}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1530198588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530198586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 2
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 21300000, guid: 2bafdc4cddc02574db65414d399719ce, type: 3}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1530198589}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1530198589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530198586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2ff9edb982c97e6479433e41ff122035, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1530198590
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530198586}
   m_CullTransparentMesh: 0
 --- !u!1 &1530354731
 GameObject:
@@ -71826,6 +73348,7 @@ GameObject:
   - component: {fileID: 1535252942}
   - component: {fileID: 1535252944}
   - component: {fileID: 1535252943}
+  - component: {fileID: 1535252945}
   m_Layer: 0
   m_Name: spike 1 (13)
   m_TagString: Spikes
@@ -71919,6 +73442,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1535252945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1535252941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1538747609
 GameObject:
   m_ObjectHideFlags: 0
@@ -72090,6 +73627,7 @@ GameObject:
   - component: {fileID: 1539781660}
   - component: {fileID: 1539781662}
   - component: {fileID: 1539781661}
+  - component: {fileID: 1539781663}
   m_Layer: 0
   m_Name: spike 1 (34)
   m_TagString: Spikes
@@ -72182,6 +73720,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1539781663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539781659}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1543630317
 GameObject:
   m_ObjectHideFlags: 0
@@ -72513,6 +74065,7 @@ GameObject:
   - component: {fileID: 1546626707}
   - component: {fileID: 1546626709}
   - component: {fileID: 1546626708}
+  - component: {fileID: 1546626710}
   m_Layer: 0
   m_Name: spike 1 (45)
   m_TagString: Spikes
@@ -72607,6 +74160,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1546626710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546626706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1547998042
 GameObject:
   m_ObjectHideFlags: 0
@@ -72858,6 +74425,7 @@ GameObject:
   - component: {fileID: 1560644417}
   - component: {fileID: 1560644419}
   - component: {fileID: 1560644418}
+  - component: {fileID: 1560644420}
   m_Layer: 0
   m_Name: spike 1 (27)
   m_TagString: Spikes
@@ -72951,6 +74519,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1560644420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560644416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1561761612
 GameObject:
   m_ObjectHideFlags: 0
@@ -73042,6 +74624,7 @@ GameObject:
   - component: {fileID: 1565020501}
   - component: {fileID: 1565020503}
   - component: {fileID: 1565020502}
+  - component: {fileID: 1565020504}
   m_Layer: 0
   m_Name: spike 1 (54)
   m_TagString: Spikes
@@ -73134,6 +74717,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1565020504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565020500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1565195244
 GameObject:
   m_ObjectHideFlags: 0
@@ -76081,6 +77678,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1614520033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1614520034}
+  - component: {fileID: 1614520036}
+  - component: {fileID: 1614520035}
+  m_Layer: 5
+  m_Name: txt_gameOver
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1614520034
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614520033}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1027361858}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -123}
+  m_SizeDelta: {x: 1120, y: 340}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &1614520035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614520033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 57c5f76f242df8749920d8b7f0bdcd61, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1614520036
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614520033}
+  m_CullTransparentMesh: 0
 --- !u!1 &1615889584
 GameObject:
   m_ObjectHideFlags: 0
@@ -77446,6 +79118,7 @@ GameObject:
   - component: {fileID: 1638162617}
   - component: {fileID: 1638162619}
   - component: {fileID: 1638162618}
+  - component: {fileID: 1638162620}
   m_Layer: 0
   m_Name: spike 1 (25)
   m_TagString: Spikes
@@ -77539,6 +79212,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1638162620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638162616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1639671564
 GameObject:
   m_ObjectHideFlags: 0
@@ -78748,6 +80435,7 @@ GameObject:
   - component: {fileID: 1673796886}
   - component: {fileID: 1673796888}
   - component: {fileID: 1673796887}
+  - component: {fileID: 1673796889}
   m_Layer: 0
   m_Name: spike 1 (24)
   m_TagString: Spikes
@@ -78840,6 +80528,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1673796889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673796885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1675352839
 GameObject:
   m_ObjectHideFlags: 0
@@ -79010,6 +80712,7 @@ GameObject:
   - component: {fileID: 1677011269}
   - component: {fileID: 1677011271}
   - component: {fileID: 1677011270}
+  - component: {fileID: 1677011272}
   m_Layer: 0
   m_Name: spike 1 (5)
   m_TagString: Spikes
@@ -79103,6 +80806,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1677011272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1677011268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1677298544
 GameObject:
   m_ObjectHideFlags: 0
@@ -79514,6 +81231,7 @@ GameObject:
   - component: {fileID: 1683881626}
   - component: {fileID: 1683881628}
   - component: {fileID: 1683881627}
+  - component: {fileID: 1683881629}
   m_Layer: 0
   m_Name: spike 1 (6)
   m_TagString: Spikes
@@ -79606,6 +81324,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1683881629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683881625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1686844825
 GameObject:
   m_ObjectHideFlags: 0
@@ -80102,6 +81834,7 @@ GameObject:
   - component: {fileID: 1694902304}
   - component: {fileID: 1694902306}
   - component: {fileID: 1694902305}
+  - component: {fileID: 1694902307}
   m_Layer: 0
   m_Name: spike 1 (4)
   m_TagString: Spikes
@@ -80194,6 +81927,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1694902307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694902303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1695410293
 GameObject:
   m_ObjectHideFlags: 0
@@ -80685,6 +82432,7 @@ GameObject:
   - component: {fileID: 1712757453}
   - component: {fileID: 1712757455}
   - component: {fileID: 1712757454}
+  - component: {fileID: 1712757456}
   m_Layer: 0
   m_Name: spike 1 (53)
   m_TagString: Spikes
@@ -80778,6 +82526,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1712757456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712757452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1713264307
 GameObject:
   m_ObjectHideFlags: 0
@@ -82549,6 +84311,7 @@ GameObject:
   - component: {fileID: 1748095565}
   - component: {fileID: 1748095567}
   - component: {fileID: 1748095566}
+  - component: {fileID: 1748095568}
   m_Layer: 0
   m_Name: spike 1 (3)
   m_TagString: Spikes
@@ -82643,6 +84406,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1748095568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748095564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1748535905
 GameObject:
   m_ObjectHideFlags: 0
@@ -82734,6 +84511,7 @@ GameObject:
   - component: {fileID: 1751601366}
   - component: {fileID: 1751601368}
   - component: {fileID: 1751601367}
+  - component: {fileID: 1751601369}
   m_Layer: 0
   m_Name: spike 1
   m_TagString: Spikes
@@ -82826,6 +84604,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1751601369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751601365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1751921538
 GameObject:
   m_ObjectHideFlags: 0
@@ -83309,6 +85101,7 @@ GameObject:
   - component: {fileID: 1764615522}
   - component: {fileID: 1764615524}
   - component: {fileID: 1764615523}
+  - component: {fileID: 1764615525}
   m_Layer: 0
   m_Name: spike 1 (43)
   m_TagString: Spikes
@@ -83402,6 +85195,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1764615525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764615521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1765981274
 GameObject:
   m_ObjectHideFlags: 0
@@ -84773,6 +86580,7 @@ GameObject:
   - component: {fileID: 1785005911}
   - component: {fileID: 1785005913}
   - component: {fileID: 1785005912}
+  - component: {fileID: 1785005914}
   m_Layer: 0
   m_Name: spike 1 (22)
   m_TagString: Spikes
@@ -84865,6 +86673,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1785005914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1785005910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1786110804
 GameObject:
   m_ObjectHideFlags: 0
@@ -84876,6 +86698,7 @@ GameObject:
   - component: {fileID: 1786110805}
   - component: {fileID: 1786110807}
   - component: {fileID: 1786110806}
+  - component: {fileID: 1786110808}
   m_Layer: 0
   m_Name: spike 1 (41)
   m_TagString: Spikes
@@ -84969,6 +86792,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1786110808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786110804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1787047202
 GameObject:
   m_ObjectHideFlags: 0
@@ -85376,6 +87213,7 @@ GameObject:
   - component: {fileID: 1790691314}
   - component: {fileID: 1790691316}
   - component: {fileID: 1790691315}
+  - component: {fileID: 1790691317}
   m_Layer: 0
   m_Name: spike 1 (12)
   m_TagString: Spikes
@@ -85468,6 +87306,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1790691317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1790691313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1792228484
 GameObject:
   m_ObjectHideFlags: 0
@@ -85639,6 +87491,7 @@ GameObject:
   - component: {fileID: 1794748010}
   - component: {fileID: 1794748012}
   - component: {fileID: 1794748011}
+  - component: {fileID: 1794748013}
   m_Layer: 0
   m_Name: spike 1 (36)
   m_TagString: Spikes
@@ -85731,6 +87584,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1794748013
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794748009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1794983801
 GameObject:
   m_ObjectHideFlags: 0
@@ -87326,86 +89193,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1824727454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1824727455}
-  - component: {fileID: 1824727457}
-  - component: {fileID: 1824727456}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1824727455
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824727454}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 978051313}
-  m_Father: {fileID: 249612498}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 262}
-  m_SizeDelta: {x: 0, y: 244.5}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1824727456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824727454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 120
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 120
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: GAME OVER
---- !u!222 &1824727457
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824727454}
-  m_CullTransparentMesh: 0
 --- !u!1 &1828019606
 GameObject:
   m_ObjectHideFlags: 0
@@ -87624,7 +89411,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -87742,7 +89529,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1033515116}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -88877,6 +90664,7 @@ GameObject:
   - component: {fileID: 1856795959}
   - component: {fileID: 1856795961}
   - component: {fileID: 1856795960}
+  - component: {fileID: 1856795962}
   m_Layer: 0
   m_Name: spike 1 (32)
   m_TagString: Spikes
@@ -88969,6 +90757,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1856795962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856795958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1858987559
 GameObject:
   m_ObjectHideFlags: 0
@@ -89460,6 +91262,7 @@ GameObject:
   - component: {fileID: 1866408166}
   - component: {fileID: 1866408168}
   - component: {fileID: 1866408167}
+  - component: {fileID: 1866408169}
   m_Layer: 0
   m_Name: spike 1 (8)
   m_TagString: Spikes
@@ -89552,6 +91355,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1866408169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866408165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1866944461
 GameObject:
   m_ObjectHideFlags: 0
@@ -90550,6 +92367,7 @@ GameObject:
   - component: {fileID: 1889936316}
   - component: {fileID: 1889936318}
   - component: {fileID: 1889936317}
+  - component: {fileID: 1889936319}
   m_Layer: 0
   m_Name: spike 1 (15)
   m_TagString: Spikes
@@ -90643,6 +92461,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1889936319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889936315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1890195735
 GameObject:
   m_ObjectHideFlags: 0
@@ -90734,6 +92566,7 @@ GameObject:
   - component: {fileID: 1893748790}
   - component: {fileID: 1893748792}
   - component: {fileID: 1893748791}
+  - component: {fileID: 1893748793}
   m_Layer: 0
   m_Name: spike 1 (26)
   m_TagString: Spikes
@@ -90826,6 +92659,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1893748793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1893748789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1896823596
 GameObject:
   m_ObjectHideFlags: 0
@@ -91322,7 +93169,7 @@ Transform:
   m_Children:
   - {fileID: 31258021}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906188456
 GameObject:
@@ -91415,6 +93262,7 @@ GameObject:
   - component: {fileID: 1906202072}
   - component: {fileID: 1906202074}
   - component: {fileID: 1906202073}
+  - component: {fileID: 1906202075}
   m_Layer: 0
   m_Name: spike 1 (33)
   m_TagString: Spikes
@@ -91509,6 +93357,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1906202075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906202071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1907558485
 GameObject:
   m_ObjectHideFlags: 0
@@ -92080,6 +93942,7 @@ GameObject:
   - component: {fileID: 1913920687}
   - component: {fileID: 1913920689}
   - component: {fileID: 1913920688}
+  - component: {fileID: 1913920690}
   m_Layer: 0
   m_Name: spike 1 (22)
   m_TagString: Spikes
@@ -92172,6 +94035,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1913920690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913920686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1915288805
 GameObject:
   m_ObjectHideFlags: 0
@@ -93303,6 +95180,7 @@ GameObject:
   - component: {fileID: 1937925314}
   - component: {fileID: 1937925316}
   - component: {fileID: 1937925315}
+  - component: {fileID: 1937925317}
   m_Layer: 0
   m_Name: spike 1 (9)
   m_TagString: Spikes
@@ -93398,6 +95276,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1937925317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937925313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1938086926
 GameObject:
   m_ObjectHideFlags: 0
@@ -95246,6 +97138,7 @@ GameObject:
   - component: {fileID: 1972062799}
   - component: {fileID: 1972062801}
   - component: {fileID: 1972062800}
+  - component: {fileID: 1972062802}
   m_Layer: 0
   m_Name: spike 1 (18)
   m_TagString: Spikes
@@ -95338,6 +97231,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1972062802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1972062798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1972136452
 GameObject:
   m_ObjectHideFlags: 0
@@ -95425,6 +97332,7 @@ GameObject:
   - component: {fileID: 1976278599}
   - component: {fileID: 1976278601}
   - component: {fileID: 1976278600}
+  - component: {fileID: 1976278602}
   m_Layer: 0
   m_Name: spike 1 (35)
   m_TagString: Spikes
@@ -95518,6 +97426,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1976278602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976278598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1987410582
 GameObject:
   m_ObjectHideFlags: 0
@@ -95689,6 +97611,7 @@ GameObject:
   - component: {fileID: 1993138195}
   - component: {fileID: 1993138197}
   - component: {fileID: 1993138196}
+  - component: {fileID: 1993138198}
   m_Layer: 0
   m_Name: spike 1 (50)
   m_TagString: Spikes
@@ -95781,6 +97704,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1993138198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993138194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &1993282675
 GameObject:
   m_ObjectHideFlags: 0
@@ -96192,6 +98129,7 @@ GameObject:
   - component: {fileID: 2006917131}
   - component: {fileID: 2006917133}
   - component: {fileID: 2006917132}
+  - component: {fileID: 2006917134}
   m_Layer: 0
   m_Name: spike 1 (2)
   m_TagString: Spikes
@@ -96284,6 +98222,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2006917134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2006917130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2007573517
 GameObject:
   m_ObjectHideFlags: 0
@@ -97814,6 +99766,7 @@ GameObject:
   - component: {fileID: 2037881661}
   - component: {fileID: 2037881663}
   - component: {fileID: 2037881662}
+  - component: {fileID: 2037881664}
   m_Layer: 0
   m_Name: spike 1 (52)
   m_TagString: Spikes
@@ -97906,6 +99859,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2037881664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037881660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2038074976
 GameObject:
   m_ObjectHideFlags: 0
@@ -98556,6 +100523,7 @@ GameObject:
   - component: {fileID: 2053714142}
   - component: {fileID: 2053714144}
   - component: {fileID: 2053714143}
+  - component: {fileID: 2053714145}
   m_Layer: 0
   m_Name: spike 1 (9)
   m_TagString: Spikes
@@ -98651,6 +100619,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2053714145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053714141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2054944609
 GameObject:
   m_ObjectHideFlags: 0
@@ -98979,6 +100961,7 @@ GameObject:
   - component: {fileID: 2062630569}
   - component: {fileID: 2062630571}
   - component: {fileID: 2062630570}
+  - component: {fileID: 2062630572}
   m_Layer: 0
   m_Name: spike 1 (17)
   m_TagString: Spikes
@@ -99073,6 +101056,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2062630572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2062630568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2064431701
 GameObject:
   m_ObjectHideFlags: 0
@@ -99164,6 +101161,7 @@ GameObject:
   - component: {fileID: 2064792390}
   - component: {fileID: 2064792392}
   - component: {fileID: 2064792391}
+  - component: {fileID: 2064792393}
   m_Layer: 0
   m_Name: spike 1 (16)
   m_TagString: Spikes
@@ -99256,6 +101254,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2064792393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064792389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2065794646
 GameObject:
   m_ObjectHideFlags: 0
@@ -99507,6 +101519,7 @@ GameObject:
   - component: {fileID: 2074257156}
   - component: {fileID: 2074257158}
   - component: {fileID: 2074257157}
+  - component: {fileID: 2074257159}
   m_Layer: 0
   m_Name: spike 1 (47)
   m_TagString: Spikes
@@ -99600,6 +101613,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2074257159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074257155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2075356058
 GameObject:
   m_ObjectHideFlags: 0
@@ -101847,6 +103874,7 @@ GameObject:
   - component: {fileID: 2124108694}
   - component: {fileID: 2124108696}
   - component: {fileID: 2124108695}
+  - component: {fileID: 2124108697}
   m_Layer: 0
   m_Name: spike 1 (57)
   m_TagString: Spikes
@@ -101940,6 +103968,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2124108697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124108693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2124310481
 GameObject:
   m_ObjectHideFlags: 0
@@ -102431,6 +104473,7 @@ GameObject:
   - component: {fileID: 2135243297}
   - component: {fileID: 2135243299}
   - component: {fileID: 2135243298}
+  - component: {fileID: 2135243300}
   m_Layer: 0
   m_Name: spike 1 (18)
   m_TagString: Spikes
@@ -102523,6 +104566,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2135243300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135243296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7b89b1d9d7b56847b1fe6cac801bf1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUI: {fileID: 938816187}
+  gameManager: {fileID: 938816185}
 --- !u!1 &2135409574
 GameObject:
   m_ObjectHideFlags: 0

@@ -26,11 +26,7 @@ public class PlayerMovement : MonoBehaviour
     }
 
     void FixedUpdate(){
-        /*
-        Jump();
-        MovedForward();
-        MovedBackward();
-        */
+      
         if(btn_right.Pressed){
             MovedForward();
         }
