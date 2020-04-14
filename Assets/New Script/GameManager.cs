@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    
     public GameObject gameOverCanvas;
     private PlayerStatusUI playerStatusUI;
     PlayerStatus playerStatus = new PlayerStatus();
@@ -35,12 +36,8 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
-    void Update()
-    {
-      
-    }
 
 }
