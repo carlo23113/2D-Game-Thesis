@@ -7,9 +7,7 @@ public class PlayerStatusUI : MonoBehaviour
     
     [SerializeField]private GameObject[] astronaut;
     private int health;
-
     private int numberOfHealth;
-
     public int NumberOfHealth{
         set{
             numberOfHealth = value;

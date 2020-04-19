@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     
     public GameObject gameOverCanvas;
+    public GameObject panel_pause;
     private PlayerStatusUI playerStatusUI;
     PlayerStatus playerStatus = new PlayerStatus();
     private int health;
@@ -26,12 +27,14 @@ public class GameManager : MonoBehaviour
 
     public void Pause()
     {
+        panel_pause.SetActive(true);
         Time.timeScale = 0;
     }
 
     public void Resume()
     {
         Time.timeScale = 1;
+        panel_pause.SetActive(false);
     }
 
     public void Replay()

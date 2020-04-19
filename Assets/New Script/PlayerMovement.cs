@@ -19,6 +19,19 @@ public class PlayerMovement : MonoBehaviour
     private float facingRight = 1f;
     private bool isJumping;
     private Vector3 direction;
+
+    public float JumpForce
+    {
+        get
+        {
+            return jumpForce;
+        }
+        set
+        {
+            jumpForce = value;
+        }
+    }
+
     void Start(){
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
