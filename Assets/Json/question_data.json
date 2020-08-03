@@ -1,0 +1,34 @@
+{
+	"questions": [
+		{
+			"question_text": "color of the apple",
+			"choices": [
+				"Red",
+				"Orange",
+				"Yellow",
+				"Green"
+			],
+			"correct_answer": "Red"
+		},
+		{
+			"question_text": "color of the grapes",
+			"choices": [
+				"White",
+				"Purple",
+				"Yellow",
+				"Green"
+			],
+			"correct_answer": "Purple"
+		},
+		{
+			"question_text": "color of the strawberry",
+			"choices": [
+				"Red",
+				"Black",
+				"Yellow",
+				"Blue"
+			],
+			"correct_answer": "Red"
+		}
+	]
+}

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class InventoryButtons : MonoBehaviour
 {
-    [SerializeField]private GameObject inventory;
+    [SerializeField] private GameObject inventory;
+    [SerializeField] private GameObject information;
     public void OpenInventory(){
         inventory.SetActive(true);
     }
@@ -12,4 +13,5 @@ public class InventoryButtons : MonoBehaviour
     public void CloseInventory(){
         inventory.SetActive(false);
     }
+
 }

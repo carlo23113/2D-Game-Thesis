@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PauseScript : MonoBehaviour
+public class NewBehaviourScript : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,15 +14,5 @@ public class PauseScript : MonoBehaviour
     void Update()
     {
         
-    }
-
-    public void Pause()
-    {
-        Time.timeScale = 0;
-    }
-
-    public void Continue()
-    {
-        Time.timeScale = 1;
     }
 }
