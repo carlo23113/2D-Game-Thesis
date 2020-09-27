@@ -9,6 +9,7 @@ public class TutorialScene : MonoBehaviour
 
     public void GoToTutorialScene()
     {
+        FindObjectOfType<sound_manager>().Play("select");
         SceneManager.LoadScene(scene);
     }
 }

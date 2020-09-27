@@ -12,14 +12,15 @@ public class QuestionAndAnswer : MonoBehaviour
         confirmation.SetActive(false);
     }
 
-    public void onProceed()
+    public void onProceed(string stage)
     {
-        SceneManager.LoadScene("exam");
+        FindObjectOfType<sound_manager>().Play("select");
+        SceneManager.LoadScene(stage);
     }
 
     public void onDecline()
     {
-        
+        FindObjectOfType<sound_manager>().Play("select");
         confirmation.SetActive(false);
     }
 

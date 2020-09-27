@@ -9,6 +9,7 @@ public class PlayButton : MonoBehaviour
 
     public void buttonPlay()
     {
+        FindObjectOfType<sound_manager>().Play("select");
         panel2.SetActive(true);
     }
 }
